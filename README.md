@@ -1,17 +1,28 @@
+# IA22_LOGIC_ONLINE_VIDEOPRIVATEOULFLUX
 
-# IA22 LOGIC Médicale – NetSecurePro IA
+**Auteur : Zoubirou Mohammed Ilyes**  
+**ORCID : https://orcid.org/0009-0007-7571-3178**
 
-🧠 Interface HTML médicale intelligente pour analyse rapide de symptômes.  
-Développée par **Zoubirou Mohammed Ilyes**  
-🔗 ORCID : https://orcid.org/0009-0007-7571-3178
+## 📁 Structure
+```
+IA22_LOGIC_ONLINE_VIDEOPRIVATEOULFLUX/
+├── ia22_video_launcher.sh
+├── video_launcher.html
+├── config.json
+├── README.md
+└── assets/
+    ├── logo_netsecurepro.png
+    └── QR_IA22_VideoLauncher.png
+```
 
-## Contenu
-- `index.html` – Interface utilisateur
-- `assets/logic_engine.js` – Moteur IA local
-- `logic_data/*.json` – Modules IA déclarés
+## 🚀 Usage
+- **CLI (Termux)**:  
+  ```bash
+  bash ia22_video_launcher.sh
+  ```
+- **WebView / Navigateur**:  
+  Ouvrir `video_launcher.html` dans une WebView Android.
 
-## Utilisation
-Ouvrir `index.html` dans un navigateur ou une WebView (APK, Termux, etc.)
-
-## Licence
-MIT License
+## 🔒 Sécurité
+- Flux configuré via `config.json` (YouTube privé, PeerTube sécurisé, etc.).
+- Permet une intégration avec proxy/token si nécessaire.
